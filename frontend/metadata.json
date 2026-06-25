@@ -1,0 +1,6 @@
+{
+  "name": "N'Det",
+  "description": "An elegant, minimalist website for N'Det Restaurant, featuring a bilingual Albanian and English menu with 30 gourmet Mediterranean recipes, table reservations, and social media links.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

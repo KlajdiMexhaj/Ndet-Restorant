@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #5d2b24;
+  --color-brand-accent: #ffc378;
+  --color-brand-bg: #e5d4c0;
+  --color-brand-dark: #200d0a;
+  --color-brand-light: #f5ebe0;
+  --color-brand-cream: #faf5ef;
+  
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --animate-fade-in-up: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-blur-in: blur-in 0.6s ease-out forwards;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes blur-in {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f5ebe0;
+}
+::-webkit-scrollbar-thumb {
+  background: #5d2b24;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffc378;
+}
+
+/* Custom styles to enhance earthy elegance */
+body {
+  background-color: #faf5ef; /* Softest warm cream cream */
+  color: #200d0a;
+  font-family: var(--font-sans);
+}
+
