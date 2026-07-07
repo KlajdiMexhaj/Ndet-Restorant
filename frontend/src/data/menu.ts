@@ -25,7 +25,7 @@ import NdetMenuPeneKarbonara from '../assets/images/NDet-menu-pene-karbonara.jpg
 import NdetMenuPeneArrabiata from '../assets/images/NDet-menu-pene-arrabiata.jpg';
 import NdetMenuRizoto from '../assets/images/NDet-menu-rizoto.jpg';
 import NdetMenuKarkalec from '../assets/images/NDet-menu-karkaleca.jpg';
-import NdetMenuKallamare from '../assets/images/NDet-menu-kallamar.jpg';
+import NdetMenuKallamare from '../assets/images/NDet-menu-kallamar-1.jpg';
 import NdetMenuOktapod from '../assets/images/NDet-menu-oktapod.jpg';
 import NdetMenuSepie from '../assets/images/NDet-menu-fruta-deti.jpg';
 import NdetMenuMidhje from '../assets/images/NDet-menu-midhje.jpg';
