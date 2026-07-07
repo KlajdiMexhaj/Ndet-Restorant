@@ -20,14 +20,14 @@ export default function Contact({ currentLang }: ContactProps) {
   const [formSubmitted, setFormSubmitted] = useState(false);
 
   // Predefined phone & whatsapp number
-  const phoneNumber = '+355697465960'; 
-  const cleanPhoneForWhatsApp = '+355697465960';
+  const phoneNumber = '+355673885962'; 
+  const cleanPhoneForWhatsApp = '+355673885962';
 
   // Construct WhatsApp reservation text dynamically based on form input!
   const getWhatsAppLink = () => {
     const baseText = currentLang === 'en'
-      ? `Hello N'Det! I would like to request a table reservation. \n\n• Name: ${formData.name || 'Valued Guest'}\n• Phone: ${formData.phone || 'N/A'}\n• Guests: ${formData.guests}\n• Date: ${formData.date || 'To be confirmed'}\n• Time: ${formData.time}\n• Notes: ${formData.notes || 'None'}\n\nThank you!`
-      : `Përshëndetje N'Det! Dëshiroj të bëj një rezervim tavoline. \n\n• Emri: ${formData.name || 'Mysafir i Nderuar'}\n• Cel: ${formData.phone || 'N/A'}\n• Persona: ${formData.guests}\n• Data: ${formData.date || 'Për t\'u konfirmuar'}\n• Ora: ${formData.time}\n• Shënime: ${formData.notes || 'Asnjë'}\n\nJu faleminderit!`;
+      ? `Hello N'Det! I would like to request a table reservation. Thank you!`
+      : `Përshëndetje N'Det! Dëshiroj të bëj një rezervim tavoline.Ju faleminderit!`;
     
     return `https://wa.me/${cleanPhoneForWhatsApp}?text=${encodeURIComponent(baseText)}`;
   };
@@ -244,7 +244,7 @@ export default function Contact({ currentLang }: ContactProps) {
                     required
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    placeholder={currentLang === 'en' ? 'e.g. John Doe' : 'p.sh. Klajdi Mexhaj'}
+                    placeholder={currentLang === 'en' ? 'Name Surname' : 'Emer Mbiemer'}
                     className="w-full bg-brand-primary/20 border border-brand-primary/30 focus:border-brand-accent focus:outline-none px-4 py-3 rounded-xl text-xs font-sans text-brand-cream"
                   />
                 </div>

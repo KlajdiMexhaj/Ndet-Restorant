@@ -61,6 +61,7 @@ export default function Header({
           isScrolled ? 'py-2 md:py-4' : 'py-4 md:py-6'
         }`}
       >
+        
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div 
             className={`flex items-center justify-between transition-all duration-500 px-4 py-2 md:px-8 md:py-3 rounded-full md:rounded-2xl ${
@@ -155,6 +156,7 @@ export default function Header({
             <button onClick={() => handleNavClick('contact')} className="w-full flex items-center justify-center gap-3 bg-brand-accent text-brand-dark py-5 rounded-2xl font-display text-xs tracking-[0.2em] uppercase font-bold shadow-2xl active:scale-95 transition-transform"><Phone className="w-4 h-4" />{UI_TRANSLATIONS.navReservations[currentLang]}</button>
           </div>
         </div>
+        
       </div>
     </>
   );

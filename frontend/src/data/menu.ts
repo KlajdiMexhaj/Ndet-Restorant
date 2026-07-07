@@ -1,5 +1,53 @@
 import { MenuItem, UIContent } from '../types';
-
+import NdetMenuOmlete from '../assets/images/Ndet-menu-omlete.jpg';
+import NdetMenuVezeSy from '../assets/images/Ndet-menu-veze-sy.jpg';
+import NdetMenuPetulla from '../assets/images/Ndet-menu-petulla.jpg';
+import NdetMenuKrepa from '../assets/images/Ndet-menu-krepa.jpg';
+import NdetMenuBriosh from '../assets/images/Ndet-menu-briosh.jpg';
+import NdetMenuSallateMikse from '../assets/images/NDet-menu-sallate-mikse.jpg';
+import NdetMenuSallateRukola from '../assets/images/NDet-menu-sallate-rukola.jpg';
+import NdetMenuSallateGreke from '../assets/images/NDet-menu-sallate-greke.jpg';
+import NdetMenuSallateCezarPule from '../assets/images/NDet-menu-sallate-cezar-mish.jpg';
+import NdetMenuSallateCezarKarkalec from '../assets/images/NDet-menu-sallate-cezar-karkalec.jpg';
+import NdetMenuFogaqe from '../assets/images/NDet-menu-fogaqe.jpg';
+import NdetMenuBrusket from '../assets/images/NDet-menu-brusketa.jpg';
+import NdetMenuBukemisri from '../assets/images/NDet-menu-misri.jpg';
+import NdetMenuDjath from '../assets/images/NDet-menu-djath.jpg';
+import NdetMenuSalceKosi from '../assets/images/NDet-menu-salce-kosi.jpg';
+import NdetMenuPatateSkuqura from '../assets/images/NDet-menu-patate.jpg';
+import NdetMenuPerimeZgare from '../assets/images/NDet-menu-perime.jpg';
+import NdetMenuSupePeshku from '../assets/images/NDet-menu-supe-peshku.jpg';
+import NdetMenuSupePule from '../assets/images/NDet-menu-supe-pule.jpg';
+import Ndetaboutus2 from '../assets/images/NDet-about-us-linguini-shëngjin-1.jpg';
+import NdetMenuSpagetiPule from '../assets/images/NDet-menu-spageti-pule.jpg';
+import NdetMenuSpagetiBolonjeze from '../assets/images/NDet-menu-spageti-bolonjeze.jpg';
+import NdetMenuPeneKarbonara from '../assets/images/NDet-menu-pene-karbonara.jpg';
+import NdetMenuPeneArrabiata from '../assets/images/NDet-menu-pene-arrabiata.jpg';
+import NdetMenuRizoto from '../assets/images/NDet-menu-rizoto.jpg';
+import NdetMenuKarkalec from '../assets/images/NDet-menu-karkaleca.jpg';
+import NdetMenuKallamare from '../assets/images/NDet-menu-kallamar.jpg';
+import NdetMenuOktapod from '../assets/images/NDet-menu-oktapod.jpg';
+import NdetMenuSepie from '../assets/images/NDet-menu-fruta-deti.jpg';
+import NdetMenuMidhje from '../assets/images/NDet-menu-midhje.jpg';
+import NdetMenuKarkalecSalce from '../assets/images/NDet-menu-karkaleca-salce.jpg';
+import Ndetaboutus3 from '../assets/images/NDet-about-us-fruta-deti-shëngjin-1.jpg';
+import NdetMenuLevrek from '../assets/images/NDet-menu-levrek.jpg';
+import NdetMenuFiletoPule from '../assets/images/NDet-menu-fileto-pule.jpg';
+import NdetMenuMishi from '../assets/images/NDet-menu-mishi.jpg';
+import NdetMenuPicaMargarita from '../assets/images/NDet-menu-pica-margarita.jpg';
+import NdetMenuPicaSallam from '../assets/images/NDet-menu-pica-sallam.jpg';
+import NdetMenuPicaProshute from '../assets/images/NDet-menu-pica-proshute.jpg';
+import NdetMenuPicaKerpudhe from '../assets/images/NDet-menu-pica-kerpudhe.jpg';
+import NdetMenuPica4Stinet from '../assets/images/NDet-menu-pica-4-stinet.jpg';
+import NdetMenuPicaTon from '../assets/images/NDet-menu-pica-ton.jpg';
+import NdetMenuPicaFrutaDeti from '../assets/images/NDet-menu-pica-fruta-deti.jpg';
+import NdetMenuPicaKapricoze from '../assets/images/NDet-menu-pica-kapricoze.jpg';
+import NdetMenuPica4Djathrat from '../assets/images/NDet-menu-pica-4-djathrat.jpg';
+import NdetMenuPicaAmerikane from '../assets/images/NDet-menu-pica-amerikane.jpg';
+import NdetMenuPicaHawai from '../assets/images/NDet-menu-pica-hawai.jpg';
+import NdetMenuPicaSpeciale from '../assets/images/NDet-menu-pica-speciale.jpg';
+import NdetMenuPicaShpie from '../assets/images/NDet-menu-pica-shpie.jpg';
+import NdetMenuPicaCalzone from '../assets/images/NDet-menu-pica-calzone.jpg';
 export const MENU_ITEMS: MenuItem[] = [
   // --- MËNGJESI / BREAKFAST ---
   {
@@ -10,7 +58,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Vezë të freskëta, gjalpë, kripë, piper', en: 'Fresh eggs, butter, salt, pepper' }
     ],
-    image: 'https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuOmlete
   },
   {
     id: 'b-2',
@@ -20,7 +68,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Vezë kopshti, djathë i bardhë, proshutë pule cilësore', en: 'Garden eggs, white cheese, premium chicken ham' }
     ],
-    image: 'https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuOmlete
   },
   {
     id: 'b-3',
@@ -30,7 +78,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Vezë të skuqura me kujdes', en: 'Perfectly fried sunny-side up eggs' }
     ],
-    image: 'https://images.unsplash.com/photo-1496042399014-17f06aa9da01?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuVezeSy
   },
   {
     id: 'b-4',
@@ -40,7 +88,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Brumë tradicional i skuqur, i lehtë dhe i fryrë', en: 'Traditional fried dough, light and fluffy' }
     ],
-    image: 'https://images.unsplash.com/photo-1554522723-b2a47cb105e3?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPetulla
   },
   {
     id: 'b-5',
@@ -50,7 +98,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Petulla shtëpie të shoqëruara me reçel bio', en: 'Homemade petulla served with organic jam' }
     ],
-    image: 'https://images.unsplash.com/photo-1554522723-b2a47cb105e3?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPetulla
   },
   {
     id: 'b-6',
@@ -60,7 +108,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Petulla të freskëta të shoqëruara me djathë lope', en: 'Fresh petulla served with local cow cheese' }
     ],
-    image: 'https://images.unsplash.com/photo-1554522723-b2a47cb105e3?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPetulla
   },
   {
     id: 'b-7',
@@ -70,7 +118,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Petulla të ngrohta të mbushura me çokollatë Nutella', en: 'Warm petulla layered with rich Nutella chocolate' }
     ],
-    image: 'https://images.unsplash.com/photo-1554522723-b2a47cb105e3?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPetulla
   },
   {
     id: 'b-8',
@@ -80,7 +128,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Krepa të freskëta franceze sipas dëshirës', en: 'Freshly prepared French crepes' }
     ],
-    image: 'https://images.unsplash.com/photo-1519676867240-f03562e6e14e?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuKrepa
   },
   {
     id: 'b-9',
@@ -90,7 +138,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Briosh i pjekur i freskët dhe i butë', en: 'Freshly baked warm and soft brioche pastry' }
     ],
-    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuBriosh
   },
 
   // --- SALLATA / SALADS ---
@@ -102,7 +150,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Gjethe të freskëta jeshile, domate, kastravecë, karrota, vaj ulliri', en: 'Fresh greens, tomatoes, cucumber, carrots, olive oil' }
     ],
-    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSallateMikse
   },
   {
     id: 's-2',
@@ -112,7 +160,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Rukola e freskët egër, copa djathi Grana Padano, uthull balsamike', en: 'Wild arugula, Grana Padano flakes, balsamic glaze' }
     ],
-    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSallateRukola
   },
   {
     id: 's-3',
@@ -122,7 +170,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Rukola e freskët, fleta Grana, djathë kremos Burrata i freskët, vaj ulliri', en: 'Fresh arugula, Grana flakes, rich creamy Burrata cheese, olive oil' }
     ],
-    image: 'https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSallateRukola
   },
   {
     id: 's-4',
@@ -132,7 +180,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Domate, kastravecë, djathë feta, ullinj Kalamata, qepë të kuqe, rigon', en: 'Tomatoes, cucumbers, feta cheese, Kalamata olives, red onions, oregano' }
     ],
-    image: 'https://images.unsplash.com/photo-1515516969-d4008cc6241a?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSallateGreke
   },
   {
     id: 's-5',
@@ -142,7 +190,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Fileto pule në skarë, sallatë marule, parmixhano, krutone, salcë Cezar', en: 'Grilled chicken fillet, crisp romaine lettuce, parmesan, croutons, Caesar dressing' }
     ],
-    image: 'https://images.unsplash.com/photo-1550304943-4f24f54ddde9?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSallateCezarPule
   },
   {
     id: 's-6',
@@ -152,7 +200,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Karkaleca në skarë, marule, parmesan, krutone, salcë Cezar', en: 'Grilled shrimps, romaine lettuce, parmesan flakes, croutons, Caesar dressing' }
     ],
-    image: 'https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSallateCezarKarkalec
   },
   {
     id: 's-7',
@@ -162,7 +210,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Sallatë e gjelbër e freskët kopshti, lëng limoni, vaj ulliri ekstra i virgjër', en: 'Fresh garden green lettuce, fresh lemon juice, extra virgin olive oil' }
     ],
-    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSallateMikse
   },
 
   // --- STARTUESE / STARTERS ---
@@ -174,7 +222,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Vaj ulliri ekstra i virgjër, rigon i egër, bukë e pjekur në furrë', en: 'Extra virgin olive oil, wild oregano, stone-baked flatbread' }
     ],
-    image: 'https://images.unsplash.com/photo-1572448862527-d3c904757de6?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuFogaqe
   },
   {
     id: 'st-2',
@@ -184,7 +232,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Bukë e thekur, domate të grira, hudhër, borzilok i freskët, vaj ulliri', en: 'Toasted bread, diced tomatoes, garlic rub, fresh basil, olive oil' }
     ],
-    image: 'https://images.unsplash.com/photo-1572448862527-d3c904757de6?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuBrusket
   },
   {
     id: 'st-3',
@@ -194,7 +242,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Bukë misri tradicionale shqiptare e gatuar në shtëpi', en: 'Traditional Albanian homemade yellow cornbread' }
     ],
-    image: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuBukemisri
   },
   {
     id: 'st-4',
@@ -204,7 +252,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Djathë i bardhë lope i prodhuar lokalisht', en: 'Freshly portioned premium local white cow cheese' }
     ],
-    image: 'https://images.unsplash.com/photo-1608686207856-001b95cf60ca?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuDjath
   },
   {
     id: 'st-5',
@@ -214,7 +262,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Djathë dhie i egër, i pasur dhe i pjekur nga bjeshkët', en: 'Authentic rich mountain goat cheese selection' }
     ],
-    image: 'https://images.unsplash.com/photo-1486299267070-83823f5448dd?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuDjath
   },
   {
     id: 'st-6',
@@ -224,7 +272,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Salcë kosi e trashë tradicionale me hudhër, vaj ulliri e kastravec', en: 'Thick traditional strained yogurt dip with garlic, cucumber, olive oil' }
     ],
-    image: 'https://images.unsplash.com/photo-1571244856341-4f30dd951a35?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSalceKosi
   },
   {
     id: 'st-7',
@@ -234,7 +282,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Patate të freskëta të skuqura, të spërkatura me rigon të egër', en: 'Freshly cut hand-made French fries dusted with wild oregano' }
     ],
-    image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPatateSkuqura
   },
   {
     id: 'st-8',
@@ -244,7 +292,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Patëllxhan, kungulleshkë, speca, kërpudha në skarë me vaj ulliri', en: 'Sizzling grilled eggplant, zucchini, peppers, and mushrooms' }
     ],
-    image: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPerimeZgare
   },
 
   // --- SUPË / SOUP ---
@@ -256,7 +304,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Lëng i freskët peshku i egër, karrota, selino, barëra deti', en: 'Fresh wild fish broth simmered with root vegetables, lemon and herbs' }
     ],
-    image: 'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSupePeshku
   },
   {
     id: 'sp-2',
@@ -266,7 +314,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Lëng i pasur pule shtëpie, mish pule i copëtuar, limon, perime', en: 'Rich homemade chicken broth, tender chicken pieces, lemon and fine vegetables' }
     ],
-    image: 'https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSupePule
   },
 
   // --- PASTA ---
@@ -278,7 +326,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Linguini të freskëta, midhje, karkalec, kallamar, domate qershizë, verë e bardhë', en: 'Fresh linguine, mussels, shrimp, squid, cherry tomatoes, garlic, white wine' }
     ],
-    image: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80'
+    image: Ndetaboutus2
   },
   {
     id: 'p-2',
@@ -288,7 +336,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Karkaleca deti të freskët, salcë delikate, hudhër, majdanoz', en: 'Fresh gulf shrimps, garlic, white wine glaze, fresh garden parsley' }
     ],
-    image: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80'
+    image: Ndetaboutus2
   },
   {
     id: 'p-3',
@@ -298,7 +346,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Karkaleca, kungulleshkë e ëmbël, vaj ulliri, salcë kremoze e lehtë', en: 'Sautéed shrimps, tender zucchini julienne, touch of light cream, extra virgin olive oil' }
     ],
-    image: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80'
+    image: Ndetaboutus2
   },
   {
     id: 'p-4',
@@ -308,7 +356,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Spageti, fileto pule në skarë, salcë e bardhë parmixhano', en: 'Spaghetti, tender chicken fillet chunks, light parmesan cream sauce' }
     ],
-    image: 'https://images.unsplash.com/photo-1546549032-9571cd6b27df?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSpagetiPule
   },
   {
     id: 'p-5',
@@ -318,7 +366,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Salcë e pasur mishi e zier ngadalë me domate dhe erëza', en: 'Classic Italian slow-cooked beef and veal ragu sauce' }
     ],
-    image: 'https://images.unsplash.com/photo-1546549032-9571cd6b27df?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSpagetiBolonjeze
   },
   {
     id: 'p-6',
@@ -328,7 +376,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Pene, guanciale e skuqur kërp, e verdhë veze, djathë pekorino', en: 'Penne pasta, crispy pork guanciale, rich egg yolk emulsion, black pepper, pecorino' }
     ],
-    image: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPeneKarbonara
   },
   {
     id: 'p-7',
@@ -338,7 +386,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Salcë domate pikante, hudhër, spec djegës i kuq, vaj ulliri', en: 'Fiery tomato sauce, garlic, red hot chilies, Italian parsley' }
     ],
-    image: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPeneArrabiata
   },
 
   // --- RIZOTO / RISOTTO ---
@@ -350,7 +398,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Oriz Arborio, midhje, karkaleca, kallamarë, verë e bardhë, gjalpë parmixhano', en: 'Premium Arborio rice, mixed seafood platter, white wine broth, whipped butter' }
     ],
-    image: 'https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuRizoto
   },
   {
     id: 'r-2',
@@ -360,7 +408,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Oriz Arborio, karkaleca deti të egër, lëng i pasur detar', en: 'Arborio rice cooked in rich seafood bisque, fresh shrimps, fine herbs' }
     ],
-    image: 'https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuRizoto
   },
   {
     id: 'r-3',
@@ -370,7 +418,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Oriz Arborio, karkaleca, kungulleshkë e hollë, erëza, gjalpë', en: 'Arborio rice, sautéed shrimps, sweet zucchini coins, light herb infusion' }
     ],
-    image: 'https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuRizoto
   },
   {
     id: 'r-4',
@@ -380,7 +428,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Oriz Arborio, perime të freskëta të stinës, lëng vegjetal, parmesan', en: 'Arborio rice, seasonal fresh garden vegetables, delicate stock, whipped parmesan' }
     ],
-    image: 'https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuRizoto
   },
 
   // --- FRUTA DETI / SEAFOOD ---
@@ -392,7 +440,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Karkaleca të freskët sipas zgjedhjes suaj: skarë, të skuqur, ose krudo', en: 'Fresh local shrimps prepared to your style: grilled, golden fried, or raw carpaccio' }
     ],
-    image: 'https://images.unsplash.com/photo-1534080391025-09795d197360?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuKarkalec
   },
   {
     id: 'sf-2',
@@ -402,7 +450,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Kallamare të freskëta sipas dëshirës (skarë, frito apo krudo)', en: 'Fresh local squid cooked to your taste: char-grilled, fried, or crude' }
     ],
-    image: 'https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuKallamare
   },
   {
     id: 'sf-3',
@@ -412,7 +460,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Oktapod deti i egër (gatuar sipas dëshirës)', en: 'Tender wild-caught octopus prepared grilled, crispy fried, or raw carpaccio' }
     ],
-    image: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuOktapod
   },
   {
     id: 'sf-4',
@@ -422,7 +470,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Sepie e freskët Adriatiku gatuar sipas mënyrës suaj', en: 'Fresh Adriatic cuttlefish prepared grilled, light fried, or raw marinated' }
     ],
-    image: 'https://images.unsplash.com/photo-1534080391025-09795d197360?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSepie
   },
   {
     id: 'sf-5',
@@ -432,7 +480,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Midhje të freskëta deti, verë e bardhë, hudhër, vaj ulliri, majdanoz', en: 'Fresh coastal mussels, dry white wine, garlic rub, extra virgin olive oil, parsley' }
     ],
-    image: 'https://images.unsplash.com/photo-1534080391025-09795d197360?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuMidhje
   },
   {
     id: 'sf-6',
@@ -442,7 +490,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Karkaleca të zier ngadalë në salcë të pasur me domate kopshti e erëza', en: 'Fresh shrimps slow-cooked in a rich seasoned cherry tomato and garlic reduction' }
     ],
-    image: 'https://images.unsplash.com/photo-1559742811-82410b51c4ca?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuKarkalecSalce
   },
   {
     id: 'sf-7',
@@ -452,7 +500,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Kallamare e mbushur me djathëra të shkrirë dhe barëra të freskëta', en: 'Whole squid stuffed with melted cheeses and fresh Mediterranean herbs' }
     ],
-    image: 'https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuKallamare
   },
   {
     id: 'sf-8',
@@ -462,7 +510,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Prerje mjaft e hollë e levrekut të egër, lëng limoni, piper rozë, vaj ulliri', en: 'Paper-thin slices of wild sea bass, cold-pressed olive oil, citrus, pink pepper' }
     ],
-    image: 'https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=600&q=80'
+    image: Ndetaboutus3
   },
   {
     id: 'sf-9',
@@ -472,7 +520,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Pjatancë e përzgjedhur me karkaleca, kallamarë, sepie dhe midhje për dy persona', en: 'An exquisite sharing platter of fresh seasonal local seafood for 2 people' }
     ],
-    image: 'https://images.unsplash.com/photo-1534080391025-09795d197360?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSepie
   },
   {
     id: 'sf-10',
@@ -482,7 +530,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Pjatancë gjigante familjare me të gjitha llojet e frutave të detit premium', en: 'The ultimate premium feast sharing platter of Adriatic seafood for the table' }
     ],
-    image: 'https://images.unsplash.com/photo-1534080391025-09795d197360?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSepie
   },
 
   // --- PESHK I EGËR / WILD FISH ---
@@ -494,7 +542,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Kocë e egër e kapur freskët, pjekur në skarë', en: 'Wild-caught fresh Sea Bream cooked whole on the grill with fine sea salt' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-2',
@@ -504,7 +552,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Levrek i egër i freskët, i gatuar me mjeshtëri me vaj e limon', en: 'Wild Sea Bass masterfully grilled and brushed with extra virgin olive oil and lemon' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-3',
@@ -514,7 +562,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Merluc i freskët i detit të hapur, i kategorisë së parë', en: 'First-grade premium fresh wild hake fish, cooked to order' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-4',
@@ -524,7 +572,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Merluc i freskët i kategorisë së dytë', en: 'Second-grade fresh wild hake fish' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-5',
@@ -534,7 +582,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Merluc i freskët i kategorisë së tretë', en: 'Third-grade fresh wild hake fish' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-6',
@@ -544,7 +592,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Merluc i skuqur në mënyrë të përkryer kërcitës e i artë', en: 'Perfectly crispy and golden fried hake pieces' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-7',
@@ -554,7 +602,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Barbun deti i kategorisë së parë', en: 'First-grade fresh Red Mullet, highly prized for sweet flavor' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-8',
@@ -564,7 +612,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Barbun deti i kategorisë së dytë', en: 'Second-grade fresh Red Mullet' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-9',
@@ -574,7 +622,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Barbun deti i kategorisë së tretë', en: 'Third-grade fresh Red Mullet' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-10',
@@ -584,7 +632,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Barbun i vogël i freskët, i skuqur i nxehtë e kërcitës', en: 'Crispy fried local red mullet' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-11',
@@ -594,7 +642,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Shojzë e egër e kategorisë së parë të freskët', en: 'Prime first-grade wild Sole fish' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-12',
@@ -604,7 +652,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Shojzë e kategorisë së dytë', en: 'Second-grade wild Sole fish' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-13',
@@ -614,7 +662,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Shojzë e kategorisë së tretë', en: 'Third-grade wild Sole fish' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-14',
@@ -624,7 +672,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Ngjalë e egër e kategorisë së parë të freskët', en: 'Premium first-grade fresh wild Eel' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-15',
@@ -634,7 +682,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Ngjalë e egër e kategorisë së dytë', en: 'Second-grade fresh wild Eel' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-16',
@@ -644,7 +692,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Ngjalë e egër e kategorisë së tretë', en: 'Third-grade fresh wild Eel' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'wf-17',
@@ -654,7 +702,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Pjatancë e përzgjedhur me peshq të freskët të egër të gatuar në skarë ose skuqur', en: 'Assorted seasonal wild fish platter, grilled or fried with lemon dressing' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuSepie
   },
 
   // --- PESHK / FISH ---
@@ -666,7 +714,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Porcion i plotë i kocës në skarë me perime dhe limon', en: 'Whole portioned grilled Sea Bream served with lemon and herb oil' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
   {
     id: 'f-2',
@@ -676,7 +724,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Porcion i plotë i levrekut të freskët në skarë', en: 'Whole portioned grilled Sea Bass served with microgreens and lemon' }
     ],
-    image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuLevrek
   },
 
   // --- MISH / MEAT ---
@@ -688,7 +736,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Gjoks pule i butë në skarë, patate të skuqura ose perime', en: 'Tender grilled chicken breast, served with fresh french fries or grilled vegetables' }
     ],
-    image: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuFiletoPule
   },
   {
     id: 'm-2',
@@ -698,7 +746,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Pleskavicë tradicionale mishi, patate të skuqura dhe garniturë specash', en: 'Traditional minced meat patty, served with french fries and vegetable garnish' }
     ],
-    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuMishi
   },
   {
     id: 'm-3',
@@ -708,7 +756,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Pesë qofte tradicionale shqiptare në skarë', en: 'Five pieces of authentic grilled minced meat kebabs' }
     ],
-    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuMishi
   },
   {
     id: 'm-4',
@@ -718,7 +766,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Suxhuk i shtëpisë me erëza, i pjekur në skarë', en: 'Spiced home-style sausage grilled over hot coals' }
     ],
-    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuMishi
   },
   {
     id: 'm-5',
@@ -728,7 +776,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Bërxollë e mrekullueshme viçi me patate dhe salcë shtëpie', en: 'Premium grilled veal chop served with fresh sides and lemon juice' }
     ],
-    image: 'https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuMishi
   },
   {
     id: 'm-6',
@@ -738,7 +786,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Biftek i lëngshëm viçi, pjekur sipas dëshirës, me garniturë perimesh', en: 'Juicy tender beefsteak cooked to your liking, served with garden sides' }
     ],
-    image: 'https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuMishi
   },
   {
     id: 'm-7',
@@ -748,7 +796,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Pjatancë e madhe me bërxollë, suxhuk, qebabë, pleskavicë dhe fileto pule', en: 'Generous sharing platter of grilled veal chop, sausages, kebabs, and chicken' }
     ],
-    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuMishi
   },
 
   // --- PICA / PIZZA ---
@@ -760,7 +808,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Salcë domate, mocarela e freskët, vaj ulliri, borzilok', en: 'Rich tomato sauce, fresh mozzarella cheese, olive oil, basil leaves' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPicaMargarita
   },
   {
     id: 'pz-2',
@@ -770,7 +818,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Salcë domate, mocarela, fleta salami premium', en: 'Tomato sauce, rich mozzarella, premium sliced salami' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPicaSallam
   },
   {
     id: 'pz-3',
@@ -780,7 +828,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Salcë domate, mocarela, sallam pikant italian', en: 'Tomato sauce, mozzarella, fiery hot Italian salami slices' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPicaSallam
   },
   {
     id: 'pz-4',
@@ -790,7 +838,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Salcë domate, mocarela, proshutë delikate viçi', en: 'Tomato sauce, mozzarella, tender sliced veal ham' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPicaProshute
   },
   {
     id: 'pz-5',
@@ -800,7 +848,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Mocarela, proshutë viçi, kërpudha të freskëta kopshti, salcë domate', en: 'Mozzarella, veal ham, fresh earthy mushrooms, rich tomato sauce' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPicaKerpudhe
   },
   {
     id: 'pz-6',
@@ -810,7 +858,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Mocarela, proshutë, kërpudha, ullinj, artishok', en: 'Mozzarella, ham, mushrooms, olives, and artichokes in four sections' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPica4Stinet
   },
   {
     id: 'pz-7',
@@ -820,7 +868,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Salcë domate, mocarela, copa toni, qepë të kuqe, ullinj', en: 'Tomato sauce, mozzarella, premium tuna chunks, sweet red onions, olives' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPicaTon
   },
   {
     id: 'pz-8',
@@ -830,7 +878,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Mocarela, salcë domate, karkaleca, midhje, kallamarë, hudhër, majdanoz', en: 'Mozzarella, rich tomato base, shrimps, mussels, squid chunks, garlic oil' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPicaFrutaDeti
   },
   {
     id: 'pz-9',
@@ -840,7 +888,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Salcë domate, mocarela, proshutë, kërpudha, vezë e zier, ullinj', en: 'Tomato sauce, mozzarella, ham, mushrooms, sliced boiled egg, Kalamata olives' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPicaKapricoze
   },
   {
     id: 'pz-10',
@@ -850,7 +898,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Gorgonxola, parmixhano, mocarela, djathë pekorino', en: 'Gorgonzola, rich parmesan, fresh mozzarella, pecorino cheese' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPica4Djathrat
   },
   {
     id: 'pz-11',
@@ -860,7 +908,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Sallam Wudy, patate të skuqura, mocarela, salcë domate', en: 'Sausage Wudy, crispy French fries, mozzarella cheese, tomato base' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPicaAmerikane
   },
   {
     id: 'pz-12',
@@ -870,7 +918,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Proshutë viçi, ananas i ëmbël, mocarela e shkrirë', en: 'Veal ham, sweet pineapple chunks, melted mozzarella cheese' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPicaHawai
   },
   {
     id: 'pz-13',
@@ -880,7 +928,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Sallam pikant, djathë i shijshëm gorgonxola, mocarela', en: 'Spicy Italian salami, rich creamy gorgonzola cheese, mozzarella' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPicaSallam
   },
   {
     id: 'pz-14',
@@ -890,7 +938,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Rukola e freskët, domate qershizë, fleta parmixhano, proshutë krudo', en: 'Fresh baby arugula, cherry tomatoes, shaved grana, delicate crudo ham' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPicaSpeciale
   },
   {
     id: 'pz-15',
@@ -900,7 +948,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Përbërësit specialë sekretë të zgjedhur nga shefi', en: 'The chef\'s secret selection of fresh special house ingredients' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPicaShpie
   },
   {
     id: 'pz-16',
@@ -910,7 +958,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Salcë domate, mocarela, copa suxhuku pikant lokal', en: 'Tomato sauce, mozzarella, locally crafted spicy suxhuk sausage' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPicaSallam
   },
   {
     id: 'pz-17',
@@ -920,7 +968,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Picë e palosur e mbushur me proshutë, kërpudha të freskëta, sallam, ullinj', en: 'Folded oven-baked pizza stuffed with ham, fresh mushrooms, salami, and black olives' }
     ],
-    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80'
+    image: NdetMenuPicaCalzone
   }
 ];
 
@@ -1058,16 +1106,16 @@ export const UI_TRANSLATIONS: UIContent = {
     sq: "Bisedoni në WhatsApp"
   },
   contactAddress: {
-    en: "Rruga Detare, Coastal Boulevard, Albania",
-    sq: "Rruga Detare, Bulevardi Bregdetar, Shqipëri"
+    en: "Shëtitorja Wilson, Shëngjin 4503, Albania",
+    sq: "Shëtitorja Wilson, Shëngjin 4503, Albania"
   },
   contactHours: {
     en: "Opening Hours",
     sq: "Orari i Hapjes"
   },
   contactHoursWeekdays: {
-    en: "Monday - Sunday: 07:00 AM - 11:30 PM",
-    sq: "E Hënë - E Diel: 07:00 - 23:30"
+    en: "Monday - Sunday: 07:00 AM - 12:00 PM",
+    sq: "E Hënë - E Diel: 07:00 - 12:00"
   },
   contactHoursWeekend: {
     en: "Breakfast Served: 07:00 AM - 11:00 AM Daily",

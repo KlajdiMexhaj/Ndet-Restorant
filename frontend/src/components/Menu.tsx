@@ -72,7 +72,7 @@ export default function Menu({ currentLang }: MenuProps) {
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-brand-primary/10 rounded-full text-brand-primary">
             <Utensils className="w-3.5 h-3.5 animate-bounce" />
             <span className="font-display text-xs tracking-widest uppercase font-semibold">
-              {currentLang === 'en' ? 'BILINGUAL MENU' : 'MENY E DYGJUHSHME'}
+              {currentLang === 'en' ? 'BILINGUAL MENU' : 'MENU E DYGJUHSHME'}
             </span>
           </div>
           <h2 className="font-serif text-3xl md:text-5xl font-semibold tracking-tight text-brand-dark">

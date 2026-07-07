@@ -3,7 +3,9 @@ import { motion } from 'motion/react';
 import { Sparkles, ArrowUpRight } from 'lucide-react';
 import { Language } from '../types';
 import { UI_TRANSLATIONS } from '../data/menu';
-
+import Ndetaboutus1 from '../assets/images/NDet-about-us-ambienti-shëngjin-2.jpg';
+import Ndetaboutus2 from '../assets/images/NDet-about-us-linguini-shëngjin-1.jpg';
+import Ndetaboutus3 from '../assets/images/NDet-about-us-fruta-deti-shëngjin-1.jpg';
 interface AboutProps {
   currentLang: Language;
 }
@@ -83,10 +85,10 @@ export default function About({ currentLang }: AboutProps) {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: '-100px' }}
               transition={{ duration: 0.8 }}
-              className="col-span-5 aspect-[3/4] overflow-hidden rounded-xl shadow-md border border-brand-primary/10"
+              className="col-span-5 aspect-[3/3.5] overflow-hidden rounded-xl shadow-md border border-brand-primary/10"
             >
               <img
-                src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=500&q=80"
+                src={Ndetaboutus2}
                 alt="Seafood Prep"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -99,10 +101,10 @@ export default function About({ currentLang }: AboutProps) {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: '-100px' }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="col-span-7 aspect-[4/5] overflow-hidden rounded-xl shadow-lg border border-brand-primary/10"
+              className="col-span-7 aspect-[5/4.5] overflow-hidden rounded-xl shadow-lg border border-brand-primary/10"
             >
               <img
-                src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=700&q=80"
+                src={Ndetaboutus3}
                 alt="Fine Dining Culinary Masterpiece"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -118,7 +120,7 @@ export default function About({ currentLang }: AboutProps) {
               className="col-span-12 h-44 overflow-hidden rounded-xl shadow-md border border-brand-primary/10 relative"
             >
               <img
-                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
+                src={Ndetaboutus1}
                 alt="N'Det Elegant Coastal Dining Setting"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 referrerPolicy="no-referrer"

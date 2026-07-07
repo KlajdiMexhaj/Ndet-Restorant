@@ -5,6 +5,7 @@ import About from './components/About';
 import Menu from './components/Menu';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import SocialFloating from './components/SocialFloating';
 import { Language } from './types';
 
 export default function App() {
@@ -75,7 +76,7 @@ export default function App() {
         activeSection={activeSection}
         navigateTo={navigateTo}
       />
-
+<SocialFloating />
       {/* Main Semantic Core */}
       <main className="flex-grow pt-[70px]">
         {currentPage === 'home' ? (

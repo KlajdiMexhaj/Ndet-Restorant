@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { ArrowUpRight } from 'lucide-react';
 import { Language } from '../types';
 import { UI_TRANSLATIONS } from '../data/menu';
-
+import Ndetaboutus1 from '../assets/images/NDet-ambienti-brenda.jpg';
 interface HeroProps {
   currentLang: Language;
   navigateTo: (page: 'home' | 'menu', sectionId?: string) => void;
@@ -18,7 +18,7 @@ export default function Hero({ currentLang, navigateTo }: HeroProps) {
       {/* Background Image with elegant overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1920&q=80"
+          src={Ndetaboutus1}
           alt="Coastal Fine Dining Vibe"
           className="w-full h-full object-cover object-center opacity-40 scale-105 animate-[pulse_8s_ease-in-out_infinite]"
           referrerPolicy="no-referrer"
