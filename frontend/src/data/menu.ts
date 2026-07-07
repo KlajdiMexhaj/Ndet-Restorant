@@ -1,5 +1,5 @@
 import { MenuItem, UIContent } from '../types';
-import NdetMenuOmlete from '../assets/images/NDet-menu-omlete.jpg';
+import NdetMenuOmlete from '../assets/images/Ndet-menu-omlete.jpg';
 import NdetMenuVezeSy from '../assets/images/NDet-menu-veze-sy.jpg';
 import NdetMenuPetulla from '../assets/images/NDet-menu-petulla.jpg';
 import NdetMenuKrepa from '../assets/images/NDet-menu-krepa.jpg';
