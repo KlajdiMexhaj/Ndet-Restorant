@@ -1,9 +1,9 @@
 import { MenuItem, UIContent } from '../types';
 import NdetMenuOmlete from '../assets/images/Ndet-menu-omlete.jpg';
-import NdetMenuVezeSy from '../assets/images/Ndet-menu-veze-sy.jpg';
-import NdetMenuPetulla from '../assets/images/Ndet-menu-petulla.jpg';
-import NdetMenuKrepa from '../assets/images/Ndet-menu-krepa.jpg';
-import NdetMenuBriosh from '../assets/images/Ndet-menu-briosh.jpg';
+import NdetMenuVezeSy from '../assets/images/NDet-menu-veze-sy.jpg';
+import NdetMenuPetulla from '../assets/images/NDet-menu-petulla.jpg';
+import NdetMenuKrepa from '../assets/images/NDet-menu-krepa.jpg';
+import NdetMenuBriosh from '../assets/images/NDet-menu-briosh.jpg';
 import NdetMenuSallateMikse from '../assets/images/NDet-menu-sallate-mikse.jpg';
 import NdetMenuSallateRukola from '../assets/images/NDet-menu-sallate-rukola.jpg';
 import NdetMenuSallateGreke from '../assets/images/NDet-menu-sallate-greke.jpg';
