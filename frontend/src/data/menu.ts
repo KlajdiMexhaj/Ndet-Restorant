@@ -48,6 +48,7 @@ import NdetMenuPicaHawai from '../assets/images/NDet-menu-pica-hawai.jpg';
 import NdetMenuPicaSpeciale from '../assets/images/NDet-menu-pica-speciale.jpg';
 import NdetMenuPicaShpie from '../assets/images/NDet-menu-pica-shpie.jpg';
 import NdetMenuPicaCalzone from '../assets/images/NDet-menu-pica-calzone.jpg';
+
 export const MENU_ITEMS: MenuItem[] = [
   // --- MËNGJESI / BREAKFAST ---
   {
