@@ -1,11 +1,14 @@
 import { MenuItem, UIContent } from '../types';
 import NdetMenuOmlete from '../assets/images/Ndet-menu-omlete.jpg';
 import NdetMenuVezeSy from '../assets/images/NDet-menu-veze-sy.jpg';
+import NdetMenuPetulla1 from '../assets/images/NDet-menu-petulla1.jpg';
 import NdetMenuPetulla from '../assets/images/NDet-menu-petulla.jpg';
 import NdetMenuKrepa from '../assets/images/NDet-menu-krepa.jpg';
 import NdetMenuBriosh from '../assets/images/NDet-menu-briosh.jpg';
 import NdetMenuSallateMikse from '../assets/images/NDet-menu-sallate-mikse.jpg';
+import NdetMenuSallateMikse1 from '../assets/images/NDet-menu-sallate-mikse1.jpg';
 import NdetMenuSallateRukola from '../assets/images/NDet-menu-sallate-rukola.jpg';
+import NdetMenuSallateRukola1 from '../assets/images/NDet-menu-sallate-rukola1.jpg';
 import NdetMenuSallateGreke from '../assets/images/NDet-menu-sallate-greke.jpg';
 import NdetMenuSallateCezarPule from '../assets/images/NDet-menu-sallate-cezar-mish.jpg';
 import NdetMenuSallateCezarKarkalec from '../assets/images/NDet-menu-sallate-cezar-karkalec.jpg';
@@ -19,18 +22,23 @@ import NdetMenuPerimeZgare from '../assets/images/NDet-menu-perime.jpg';
 import NdetMenuSupePeshku from '../assets/images/NDet-menu-supe-peshku.jpg';
 import NdetMenuSupePule from '../assets/images/NDet-menu-supe-pule.jpg';
 import Ndetaboutus2 from '../assets/images/NDet-about-us-linguini-shëngjin-1.jpg';
+import Ndetaboutus5 from '../assets/images/NDet-about-us-linguini-shëngjin-5.jpg';
+import Ndetaboutus4 from '../assets/images/NDet-about-us-linguini-shëngjin-4.jpg';
 import NdetMenuSpagetiPule from '../assets/images/NDet-menu-spageti-pule.jpg';
 import NdetMenuSpagetiBolonjeze from '../assets/images/NDet-menu-spageti-bolonjeze.jpg';
 import NdetMenuPeneKarbonara from '../assets/images/NDet-menu-pene-karbonara.jpg';
 import NdetMenuPeneArrabiata from '../assets/images/NDet-menu-pene-arrabiata.jpg';
 import NdetMenuRizoto from '../assets/images/NDet-menu-rizoto.jpg';
+import NdetMenuRizoto1 from '../assets/images/NDet-menu-rizoto-1.jpg';
 import NdetMenuKarkalec from '../assets/images/NDet-menu-karkaleca.jpg';
 import NdetMenuKallamare from '../assets/images/NDet-menu-kallamar-1.jpg';
+import NdetMenuKallamare2 from '../assets/images/NDet-menu-kallamar-3.jpg';
 import NdetMenuOktapod from '../assets/images/Ndet-menu-oktapod.jpg';
 import NdetMenuSepie from '../assets/images/NDet-menu-fruta-deti.jpg';
+import NdetMenuMixMesme from '../assets/images/NDet-menu-mix-mesme.jpg';
 import NdetMenuMidhje from '../assets/images/NDet-menu-midhje.jpg';
 import NdetMenuKarkalecSalce from '../assets/images/NDet-menu-karkaleca-salce.jpg';
-import Ndetaboutus3 from '../assets/images/NDet-about-us-fruta-deti-shëngjin-1.jpg';
+import NdetMenuKarpaco from '../assets/images/NDet-menu-karpaco.jpg';
 import NdetMenuLevrek from '../assets/images/NDet-menu-levrek.jpg';
 import NdetMenuFiletoPule from '../assets/images/NDet-menu-fileto-pule.jpg';
 import NdetMenuMishi from '../assets/images/NDet-menu-mishi.jpg';
@@ -57,7 +65,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '250 L',
     category: 'breakfast',
     ingredients: [
-      { sq: 'Vezë të freskëta, gjalpë, kripë, piper', en: 'Fresh eggs, butter, salt, pepper' }
+      { sq: 'Vezë te freskëta, shoqëruar me domate dhe kastravec', en: 'Fresh eggs, served with tomatoes and cucumber' }
     ],
     image: NdetMenuOmlete
   },
@@ -67,7 +75,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '300 L',
     category: 'breakfast',
     ingredients: [
-      { sq: 'Vezë kopshti, djathë i bardhë, proshutë pule cilësore', en: 'Garden eggs, white cheese, premium chicken ham' }
+      { sq: 'Vezë te freskëta, djathë i bardhë, proshutë pule cilësore', en: 'Fresh eggs, white cheese, premium chicken ham' }
     ],
     image: NdetMenuOmlete
   },
@@ -77,7 +85,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '250 L',
     category: 'breakfast',
     ingredients: [
-      { sq: 'Vezë të skuqura me kujdes', en: 'Perfectly fried sunny-side up eggs' }
+      { sq: 'Vezë të skuqura me kujdes, shoqëruar me domate dhe kastravec.', en: 'Carefully fried eggs, served with tomatoes and cucumber.' }
     ],
     image: NdetMenuVezeSy
   },
@@ -89,7 +97,7 @@ export const MENU_ITEMS: MenuItem[] = [
     ingredients: [
       { sq: 'Brumë tradicional i skuqur, i lehtë dhe i fryrë', en: 'Traditional fried dough, light and fluffy' }
     ],
-    image: NdetMenuPetulla
+    image: NdetMenuPetulla1
   },
   {
     id: 'b-5',
@@ -97,7 +105,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '350 L',
     category: 'breakfast',
     ingredients: [
-      { sq: 'Petulla shtëpie të shoqëruara me reçel bio', en: 'Homemade petulla served with organic jam' }
+      { sq: 'Petulla shtëpie të shoqëruara me reçel', en: 'Homemade petulla served with jam' }
     ],
     image: NdetMenuPetulla
   },
@@ -117,7 +125,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '350 L',
     category: 'breakfast',
     ingredients: [
-      { sq: 'Petulla të ngrohta të mbushura me çokollatë Nutella', en: 'Warm petulla layered with rich Nutella chocolate' }
+      { sq: 'Petulla të ngrohta të shoqëruara me çokollatë Nutella', en: 'Warm petulla served with Nutella' }
     ],
     image: NdetMenuPetulla
   },
@@ -127,7 +135,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '300 L',
     category: 'breakfast',
     ingredients: [
-      { sq: 'Krepa të freskëta franceze sipas dëshirës', en: 'Freshly prepared French crepes' }
+      { sq: 'Krepa të freskëta sipas dëshirës', en: 'Freshly prepared crepes' }
     ],
     image: NdetMenuKrepa
   },
@@ -137,7 +145,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '150 L',
     category: 'breakfast',
     ingredients: [
-      { sq: 'Briosh i pjekur i freskët dhe i butë', en: 'Freshly baked warm and soft brioche pastry' }
+      { sq: 'Briosh i pjekur i freskët dhe i butë, Me mbushje: Cokollate ose Krem, sipas deshires', en: 'Freshly baked and soft croissant, filled with chocolate or cream, according to your preference.' }
     ],
     image: NdetMenuBriosh
   },
@@ -149,7 +157,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '350 L',
     category: 'salads',
     ingredients: [
-      { sq: 'Gjethe të freskëta jeshile, domate, kastravecë, karrota, vaj ulliri', en: 'Fresh greens, tomatoes, cucumber, carrots, olive oil' }
+      { sq: 'Gjethe jeshile, Domate, kastraveca, speca, ullinj', en: 'Green leaves, tomatoes, cucumbers, peppers, olives.' }
     ],
     image: NdetMenuSallateMikse
   },
@@ -159,7 +167,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '500 L',
     category: 'salads',
     ingredients: [
-      { sq: 'Rukola e freskët egër, copa djathi Grana Padano, uthull balsamike', en: 'Wild arugula, Grana Padano flakes, balsamic glaze' }
+      { sq: 'Rukola e freskët egër, Pomodorini, copa djathi Grana Padano, uthull balsamike', en: 'Wild arugula, Cherry tomatoes, Grana Padano flakes, balsamic glaze' }
     ],
     image: NdetMenuSallateRukola
   },
@@ -169,9 +177,9 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '900 L',
     category: 'salads',
     ingredients: [
-      { sq: 'Rukola e freskët, fleta Grana, djathë kremos Burrata i freskët, vaj ulliri', en: 'Fresh arugula, Grana flakes, rich creamy Burrata cheese, olive oil' }
+      { sq: 'Rukola e freskët, Pomodorini, fleta Grana, djathë kremos Burrata i freskët, uthull balsamike', en: 'Fresh arugula, Cherry tomatoes, Grana flakes, rich creamy Burrata cheese, balsamic glaze' }
     ],
-    image: NdetMenuSallateRukola
+    image: NdetMenuSallateRukola1
   },
   {
     id: 's-4',
@@ -179,7 +187,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '400 L',
     category: 'salads',
     ingredients: [
-      { sq: 'Domate, kastravecë, djathë feta, ullinj Kalamata, qepë të kuqe, rigon', en: 'Tomatoes, cucumbers, feta cheese, Kalamata olives, red onions, oregano' }
+      { sq: 'Gjethe jeshile, Domate, kastraveca, speca, ullinj, Djath', en: 'Green leaves, tomatoes, cucumbers, peppers, olives, cheese' }
     ],
     image: NdetMenuSallateGreke
   },
@@ -189,7 +197,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '550 L',
     category: 'salads',
     ingredients: [
-      { sq: 'Fileto pule në skarë, sallatë marule, parmixhano, krutone, salcë Cezar', en: 'Grilled chicken fillet, crisp romaine lettuce, parmesan, croutons, Caesar dressing' }
+      { sq: 'Gjethe jeshile, mish pule , copa buke te thekur, pomodorini, miser, salcë Cezar', en: 'Green leaves, chicken, toasted bread pieces, cherry tomatoes, corn, Caesar sauce' }
     ],
     image: NdetMenuSallateCezarPule
   },
@@ -199,7 +207,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '650 L',
     category: 'salads',
     ingredients: [
-      { sq: 'Karkaleca në skarë, marule, parmesan, krutone, salcë Cezar', en: 'Grilled shrimps, romaine lettuce, parmesan flakes, croutons, Caesar dressing' }
+      { sq: 'Gjethe jeshile, Karkaleca , copa buke te thekur, pomodorini, miser, salcë Cezar', en: 'Green leaves, Shrims , toasted bread pieces, cherry tomatoes, corn, Caesar sauce' }
     ],
     image: NdetMenuSallateCezarKarkalec
   },
@@ -209,9 +217,9 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '250 L',
     category: 'salads',
     ingredients: [
-      { sq: 'Sallatë e gjelbër e freskët kopshti, lëng limoni, vaj ulliri ekstra i virgjër', en: 'Fresh garden green lettuce, fresh lemon juice, extra virgin olive oil' }
+      { sq: 'Sallate jeshile, ullinj, limon', en: 'Green salad, olives, lemon' }
     ],
-    image: NdetMenuSallateMikse
+    image: NdetMenuSallateMikse1
   },
 
   // --- STARTUESE / STARTERS ---
@@ -231,7 +239,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '400 L',
     category: 'starters',
     ingredients: [
-      { sq: 'Bukë e thekur, domate të grira, hudhër, borzilok i freskët, vaj ulliri', en: 'Toasted bread, diced tomatoes, garlic rub, fresh basil, olive oil' }
+      { sq: 'Bukë e pjekur, Domate te grira, gjethe rukola , djathë Grana', en: 'Toasted bread, chopped tomatoes, arugula leaves, Grana cheese' }
     ],
     image: NdetMenuBrusket
   },
@@ -241,7 +249,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '250 L',
     category: 'starters',
     ingredients: [
-      { sq: 'Bukë misri tradicionale shqiptare e gatuar në shtëpi', en: 'Traditional Albanian homemade yellow cornbread' }
+      { sq: 'Buke misri e skuqur pak, e zbutur me shëllirë djathi', en: 'Lightly fried cornbread, softened with cheese brine' }
     ],
     image: NdetMenuBukemisri
   },
@@ -251,7 +259,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '300 L',
     category: 'starters',
     ingredients: [
-      { sq: 'Djathë i bardhë lope i prodhuar lokalisht', en: 'Freshly portioned premium local white cow cheese' }
+      { sq: 'Djathë lope ', en: 'Cow cheese' }
     ],
     image: NdetMenuDjath
   },
@@ -261,7 +269,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '400 L',
     category: 'starters',
     ingredients: [
-      { sq: 'Djathë dhie i egër, i pasur dhe i pjekur nga bjeshkët', en: 'Authentic rich mountain goat cheese selection' }
+      { sq: 'Djathë dhie ', en: 'Goat cheese' }
     ],
     image: NdetMenuDjath
   },
@@ -271,7 +279,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '200 L',
     category: 'starters',
     ingredients: [
-      { sq: 'Salcë kosi e trashë tradicionale me hudhër, vaj ulliri e kastravec', en: 'Thick traditional strained yogurt dip with garlic, cucumber, olive oil' }
+      { sq: 'Salcë kosi tradicionale ', en: 'Traditional strained yogurt ' }
     ],
     image: NdetMenuSalceKosi
   },
@@ -281,7 +289,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '250 L',
     category: 'starters',
     ingredients: [
-      { sq: 'Patate të freskëta të skuqura, të spërkatura me rigon të egër', en: 'Freshly cut hand-made French fries dusted with wild oregano' }
+      { sq: 'Patate të skuqura', en: 'French fries' }
     ],
     image: NdetMenuPatateSkuqura
   },
@@ -291,7 +299,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '300 L',
     category: 'starters',
     ingredients: [
-      { sq: 'Patëllxhan, kungulleshkë, speca, kërpudha në skarë me vaj ulliri', en: 'Sizzling grilled eggplant, zucchini, peppers, and mushrooms' }
+      { sq: 'Patellxhana, Kungull, Spec i kuq, spec jeshil, pjekur ne zgare', en: 'Eggplant, zucchini, red pepper, green pepper, grilled' }
     ],
     image: NdetMenuPerimeZgare
   },
@@ -303,7 +311,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '400 L',
     category: 'soup',
     ingredients: [
-      { sq: 'Lëng i freskët peshku i egër, karrota, selino, barëra deti', en: 'Fresh wild fish broth simmered with root vegetables, lemon and herbs' }
+      { sq: 'Supe kremoze me perime dhe copa peshku te eger', en: 'Creamy vegetable soup with pieces of wild fish' }
     ],
     image: NdetMenuSupePeshku
   },
@@ -313,7 +321,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '350 L',
     category: 'soup',
     ingredients: [
-      { sq: 'Lëng i pasur pule shtëpie, mish pule i copëtuar, limon, perime', en: 'Rich homemade chicken broth, tender chicken pieces, lemon and fine vegetables' }
+      { sq: 'Supe kremoze me perime dhe copa mish pule', en: 'Creamy vegetable soup with pieces of chicken' }
     ],
     image: NdetMenuSupePule
   },
@@ -325,7 +333,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '750 L',
     category: 'pasta',
     ingredients: [
-      { sq: 'Linguini të freskëta, midhje, karkalec, kallamar, domate qershizë, verë e bardhë', en: 'Fresh linguine, mussels, shrimp, squid, cherry tomatoes, garlic, white wine' }
+      { sq: 'Linguini me midhje, karkalec, kallamare, oktapod gatuar ne domate, hudher, majdanoz', en: 'Linguine with mussels, shrimp, squid, octopus, cooked with tomatoes, garlic, and parsley' }
     ],
     image: Ndetaboutus2
   },
@@ -335,9 +343,9 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '800 L',
     category: 'pasta',
     ingredients: [
-      { sq: 'Karkaleca deti të freskët, salcë delikate, hudhër, majdanoz', en: 'Fresh gulf shrimps, garlic, white wine glaze, fresh garden parsley' }
+      { sq: 'Linguini me karkaleca te fresket, domate, hudher, majdanoz.', en: 'Linguine with fresh shrimp, tomatoes, garlic, and parsley' }
     ],
-    image: Ndetaboutus2
+    image: Ndetaboutus5
   },
   {
     id: 'p-3',
@@ -345,9 +353,9 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '850 L',
     category: 'pasta',
     ingredients: [
-      { sq: 'Karkaleca, kungulleshkë e ëmbël, vaj ulliri, salcë kremoze e lehtë', en: 'Sautéed shrimps, tender zucchini julienne, touch of light cream, extra virgin olive oil' }
+      { sq: 'Linguini me karkalec dhe kungull, domate, hudher, majdanoz.', en: 'Linguine with shrimp and zucchini, tomatoes, garlic, and parsley.' }
     ],
-    image: Ndetaboutus2
+    image: Ndetaboutus4
   },
   {
     id: 'p-4',
@@ -355,7 +363,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '650 L',
     category: 'pasta',
     ingredients: [
-      { sq: 'Spageti, fileto pule në skarë, salcë e bardhë parmixhano', en: 'Spaghetti, tender chicken fillet chunks, light parmesan cream sauce' }
+      { sq: 'Spageti me fileto pule , salcë me pana dhe erëza.', en: 'Spaghetti with chicken fillet, cream sauce, and spices.' }
     ],
     image: NdetMenuSpagetiPule
   },
@@ -365,7 +373,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '500 L',
     category: 'pasta',
     ingredients: [
-      { sq: 'Salcë e pasur mishi e zier ngadalë me domate dhe erëza', en: 'Classic Italian slow-cooked beef and veal ragu sauce' }
+      { sq: 'Spageti me salcë domatesh, mish te grirë viçi dhe erëza', en: 'Spaghetti with tomato sauce, minced beef, and spices' }
     ],
     image: NdetMenuSpagetiBolonjeze
   },
@@ -375,7 +383,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '550 L',
     category: 'pasta',
     ingredients: [
-      { sq: 'Pene, guanciale e skuqur kërp, e verdhë veze, djathë pekorino', en: 'Penne pasta, crispy pork guanciale, rich egg yolk emulsion, black pepper, pecorino' }
+      { sq: 'Pene me salce parmixhano, me proshute viçi dhe erëza', en: 'Penne with Parmesan sauce, beef prosciutto, and spices' }
     ],
     image: NdetMenuPeneKarbonara
   },
@@ -385,7 +393,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '500 L',
     category: 'pasta',
     ingredients: [
-      { sq: 'Salcë domate pikante, hudhër, spec djegës i kuq, vaj ulliri', en: 'Fiery tomato sauce, garlic, red hot chilies, Italian parsley' }
+      { sq: 'Pene me salcë domatesh pikante, hudher, spec djeges i kuq dhe erëza.', en: 'Penne with spicy tomato sauce, garlic, red chili pepper, and spices.' }
     ],
     image: NdetMenuPeneArrabiata
   },
@@ -397,7 +405,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '800 L',
     category: 'risotto',
     ingredients: [
-      { sq: 'Oriz Arborio, midhje, karkaleca, kallamarë, verë e bardhë, gjalpë parmixhano', en: 'Premium Arborio rice, mixed seafood platter, white wine broth, whipped butter' }
+      { sq: 'Rizoto fruta deti', en: 'Seafood Risotto' }
     ],
     image: NdetMenuRizoto
   },
@@ -407,7 +415,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '850 L',
     category: 'risotto',
     ingredients: [
-      { sq: 'Oriz Arborio, karkaleca deti të egër, lëng i pasur detar', en: 'Arborio rice cooked in rich seafood bisque, fresh shrimps, fine herbs' }
+      { sq: 'Rizoto me karkalec dhe erëza', en: 'Risotto with shrimp and spices' }
     ],
     image: NdetMenuRizoto
   },
@@ -417,7 +425,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '900 L',
     category: 'risotto',
     ingredients: [
-      { sq: 'Oriz Arborio, karkaleca, kungulleshkë e hollë, erëza, gjalpë', en: 'Arborio rice, sautéed shrimps, sweet zucchini coins, light herb infusion' }
+      { sq: 'Rizoto me karkalec, kungull dhe ereza', en: 'Risotto with shrimp, zucchini, and spices.' }
     ],
     image: NdetMenuRizoto
   },
@@ -427,9 +435,9 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '700 L',
     category: 'risotto',
     ingredients: [
-      { sq: 'Oriz Arborio, perime të freskëta të stinës, lëng vegjetal, parmesan', en: 'Arborio rice, seasonal fresh garden vegetables, delicate stock, whipped parmesan' }
+      { sq: 'Rizoto me perime (karrote , kungull, spec te kuq, spec jeshil, bizele)', en: 'Risotto with vegetables (carrot, zucchini, red pepper, green pepper, peas).' }
     ],
-    image: NdetMenuRizoto
+    image: NdetMenuRizoto1
   },
 
   // --- FRUTA DETI / SEAFOOD ---
@@ -439,9 +447,9 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '750 L (2p) | 1500 L (4p)',
     category: 'seafood',
     ingredients: [
-      { sq: 'Karkaleca të freskët sipas zgjedhjes suaj: skarë, të skuqur, ose krudo', en: 'Fresh local shrimps prepared to your style: grilled, golden fried, or raw carpaccio' }
+      { sq: 'Karkalec i pjekur ne zgare Karkalec frito Karkalec krudo marinuar me vaj ulliri, leng limoni, hudher dhe erëza.', en: 'Grilled shrimp Fried shrimp Raw marinated shrimp with olive oil, lemon juice, garlic, and spices.' }
     ],
-    image: NdetMenuKarkalec
+    image: NdetMenuKallamare2
   },
   {
     id: 'sf-2',
@@ -449,7 +457,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '750 L (2p) | 1500 L (4p)',
     category: 'seafood',
     ingredients: [
-      { sq: 'Kallamare të freskëta sipas dëshirës (skarë, frito apo krudo)', en: 'Fresh local squid cooked to your taste: char-grilled, fried, or crude' }
+      { sq: 'Kallamare pjekur ne zgare Kallamare frito Kallamare krudo marinuar me vaj ulliri, leng limoni, hudher dhe erëza', en: 'Grilled squid Fried squid Raw marinated squid with olive oil, lemon juice, garlic, and spices.' }
     ],
     image: NdetMenuKallamare
   },
@@ -469,7 +477,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '750 L (2p) | 1500 L (4p)',
     category: 'seafood',
     ingredients: [
-      { sq: 'Sepie e freskët Adriatiku gatuar sipas mënyrës suaj', en: 'Fresh Adriatic cuttlefish prepared grilled, light fried, or raw marinated' }
+      { sq: 'Sepie e freskët gatuar sipas dëshirës suaj', en: 'Fresh cuttlefish prepared according to your preference.' }
     ],
     image: NdetMenuSepie
   },
@@ -479,7 +487,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '300 L (2p) | 600 L (4p)',
     category: 'seafood',
     ingredients: [
-      { sq: 'Midhje të freskëta deti, verë e bardhë, hudhër, vaj ulliri, majdanoz', en: 'Fresh coastal mussels, dry white wine, garlic rub, extra virgin olive oil, parsley' }
+      { sq: 'Midhje të freskëta deti, hudhër, vaj ulliri, majdanoz', en: 'Fresh coastal mussels, garlic rub, extra virgin olive oil, parsley' }
     ],
     image: NdetMenuMidhje
   },
@@ -489,7 +497,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '1000 L',
     category: 'seafood',
     ingredients: [
-      { sq: 'Karkaleca të zier ngadalë në salcë të pasur me domate kopshti e erëza', en: 'Fresh shrimps slow-cooked in a rich seasoned cherry tomato and garlic reduction' }
+      { sq: 'Karkalec gatuar në salcë domatesh me erëza.', en: 'Shrimp cooked in tomato sauce with spices' }
     ],
     image: NdetMenuKarkalecSalce
   },
@@ -499,9 +507,9 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '1000 L',
     category: 'seafood',
     ingredients: [
-      { sq: 'Kallamare e mbushur me djathëra të shkrirë dhe barëra të freskëta', en: 'Whole squid stuffed with melted cheeses and fresh Mediterranean herbs' }
+      { sq: 'Kallamare e skuqur e mbushur me fruta deti dhe ullinj.', en: 'Fried squid stuffed with seafood and olives.' }
     ],
-    image: NdetMenuKallamare
+    image: NdetMenuKarkalec
   },
   {
     id: 'sf-8',
@@ -509,9 +517,9 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '1200 L',
     category: 'seafood',
     ingredients: [
-      { sq: 'Prerje mjaft e hollë e levrekut të egër, lëng limoni, piper rozë, vaj ulliri', en: 'Paper-thin slices of wild sea bass, cold-pressed olive oil, citrus, pink pepper' }
+      { sq: 'Fileto levreku e fresket, marinuar me vaj ulliri, leng limoni, hudhër dhe erëza.', en: 'Fresh sea bass fillet, marinated with olive oil, lemon juice, garlic, and spices.' }
     ],
-    image: Ndetaboutus3
+    image: NdetMenuKarpaco
   },
   {
     id: 'sf-9',
@@ -519,9 +527,9 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '2000 L',
     category: 'seafood',
     ingredients: [
-      { sq: 'Pjatancë e përzgjedhur me karkaleca, kallamarë, sepie dhe midhje për dy persona', en: 'An exquisite sharing platter of fresh seasonal local seafood for 2 people' }
+      { sq: 'Pjatance e perzgjedhur me karkaleca, Kallamare, oktapod, acuke, gatuar sipas deshires sua', en: 'A selected seafood platter with shrimp, squid, octopus, anchovies, prepared according to your preference.' }
     ],
-    image: NdetMenuSepie
+    image: NdetMenuMixMesme
   },
   {
     id: 'sf-10',
@@ -529,7 +537,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: '4000 L',
     category: 'seafood',
     ingredients: [
-      { sq: 'Pjatancë gjigante familjare me të gjitha llojet e frutave të detit premium', en: 'The ultimate premium feast sharing platter of Adriatic seafood for the table' }
+      { sq: 'Pjatance e madhe me fruta deti , gatuar sipas deshires suaj', en: 'Large seafood platter, prepared according to your preference.' }
     ],
     image: NdetMenuSepie
   },
@@ -1003,8 +1011,8 @@ export const UI_TRANSLATIONS: UIContent = {
     sq: "Shijoni peshkun e freskët të egër, makaronat artizane dhe picat e pjekura në furrë druri në Rivierën Shqiptare."
   },
   heroCTA: {
-    en: "Discover Our Menu",
-    sq: "Zbuloni Menunë"
+    en: "Book Now",
+    sq: "Rezervoni"
   },
   aboutTitle: {
     en: "Deep Mediterranean Heritage",
